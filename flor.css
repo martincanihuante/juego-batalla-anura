@@ -7,8 +7,8 @@ body {
   display: grid;
     max-height: none;
   grid-gap: 0px;
-  grid-template-columns: 1fr 102px 380px 134px 134px 380px 102px 1fr;
-    grid-template-rows: 85px 107px 56px 143px 494px 136px 243px 193px 433px 90px
+  grid-template-columns: 1fr 102px 106px 100px 208px 50px 50px 208px 100px 106px 102px 1fr;
+    grid-template-rows: 85px 107px 56px 143px 494px 136px 243px 193px 400px 90px
         130px 683px 143px 353px 53px 157px 80px 40px 71px 200px;
   background-color: #FFFFFF;
   padding: 0px;
@@ -105,12 +105,12 @@ h1 {
 }
 
 .item1 {
-    grid-column: 1/9;
+    grid-column: 1/13;
     grid-row: 1;
 }
 
 .item2 {
-    grid-column: 4/8;
+    grid-column: 4/13;
     grid-row: 1;
     font-family: "Manjari";
 
@@ -125,64 +125,65 @@ h1 {
 }
 
 .item4 {
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 5;
 }
 
 .item5 {
-    grid-column: 3/4;
+    grid-column: 2/5;
     grid-row: 3;
 }
 
 .item6 {
-    grid-column: 3/5;
+    grid-column: 2/6;
     grid-row: 4;
 }
 
 .item7{
-    grid-column: 3;
+    grid-column: 2/7;
     grid-row: 6;
 }
 
 .item8{
     grid-row: 7;
-    grid-column: 2/8;
+    grid-column: 2/7;
     padding-left: 30px;
 }
 
 .item9{
-    grid-column: 3/6;
+    grid-column: 2/6;
     grid-row: 10;
 }
 
 .item10{
-    grid-column: 3/5;
+    grid-column: 2/8;
     grid-row: 11;
 }
 
 .item11{
-    grid-column: 3/7;
+   grid-column: 2/12;
     grid-row: 12/15;
+    
     
 }
 
 .item12{
-    grid-column: 3/6;
+    grid-column: 2/6;
     grid-row: 13;
 }
 
 .item13{
-    grid-column: 3;
+    grid-column: 4/6;
     grid-row: 14;
 }
 
 .item14{
-    grid-column: 6;
+    grid-column: 8/10;
     grid-row: 14;
 }
 
 .item15{
-    grid-column: 3;
+    grid-column: 4/6;
     grid-row: 16;
     background-color: #2B8B41;
     width: 110px;
@@ -192,7 +193,7 @@ h1 {
 }
 
 .item16{
-    grid-column: 6;
+    grid-column: 8/10;
     grid-row: 16;
     background-color: #2B8B41;
     width: 110px;
@@ -202,27 +203,27 @@ h1 {
 
 .item17{
     background-color: #54AF67;
-    grid-column: 1/9;
+    grid-column: 1/13;
     grid-row: 17
 }
 
 .item18{
     background-color: #2B8B41;
-    grid-column: 1/9;
+    grid-column: 1/13;
     grid-row: 18/21;
 }
 
 .item19{
-    grid-column: 3;
+    grid-column: 2/4;
     grid-row: 19;
 }
 
 .item20{
-    grid-column: 3;
+    grid-column: 2/6;
     grid-row: 20;
 }
 
 .item21{
-    grid-column: 6;
+    grid-column: 9/12;
     grid-row: 20
 }
